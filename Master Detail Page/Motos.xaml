@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Master_Detail_Page.Motos">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout  BackgroundColor="Black" >
+                <Label Text="Mi aplicación de las 5 mejores motos" TextColor="red" FontSize="Title" HorizontalOptions="CenterAndExpand"/>
+                <ImageButton Source="Harley.jpg" HorizontalOptions="Center" x:Name="Harley_Davidson_Livewire" Clicked="Harley_Davidson_Livewire_Clicked"/>
+                <ImageButton Source="Duke.jpg" HorizontalOptions="Center" x:Name="KTM_Duke" Clicked="KTM_Duke_Clicked"/>
+                <ImageButton Source="Kawasaki.jpg" HorizontalOptions="Center" x:Name="Kawasaki_H2R" Clicked="Kawasaki_H2R_Clicked"/>
+                <ImageButton Source="Panigale.jpg" HorizontalOptions="Center" x:Name="Ducati_Panigale_V4R" Clicked="Ducati_Panigale_V4R_Clicked"/>
+                <ImageButton Source="Streetfigther.jpg" HorizontalOptions="Center" x:Name="Ducati_Streetfigther" Clicked="Ducati_Streetfigther_Clicked"/>
+                <ImageButton Source="Yamaha.jpg" HorizontalOptions="Center" x:Name="Yamaha_YZF_H1" Clicked="Yamaha_YZF_H1_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
